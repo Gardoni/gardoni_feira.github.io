@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 80px; /* Compensar o header fixo */
+    padding-bottom: 50px; /* Compensar o footer fixo */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px; /* Cantos arredondados */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#projectContent {
+    padding-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
